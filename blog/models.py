@@ -1,5 +1,10 @@
 from django.db import models
-from django.utils import timezone
+import datetime
+from django.utils import timezone 
+
+
+#now = datetime.now()
+#now.strftime('%m/%d/%Y')
 
 # Create your models here.
 class Post(models.Model):
